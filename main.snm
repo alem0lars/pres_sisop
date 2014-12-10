@@ -1,0 +1,15 @@
+\beamer@slide {fig:stackframe}{14}
+\beamer@slide {fig:segfault}{19}
+\beamer@slide {fig:whoami}{21}
+\beamer@slide {fig:initialAB}{24}
+\beamer@slide {fig:finalAB}{24}
+\beamer@slide {fig:heap}{26}
+\beamer@slide {fig:bof1}{27}
+\beamer@slide {fig:bof2}{27}
+\beamer@slide {fig:nop-sledge}{43}
+\beamer@slide {fig:jmp2reg}{45}
+\beamer@slide {fig:seh-stack-frame}{48}
+\beamer@slide {fig:ret2libc-1}{50}
+\beamer@slide {fig:ret2libc-2}{50}
+\beamer@slide {fig:rop-stack}{53}
+\beamer@slide {fig:qrcode}{72}

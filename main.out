@@ -1,0 +1,28 @@
+\BOOKMARK [2][]{Outline0.1}{Introduction}{}% 1
+\BOOKMARK [3][]{Outline0.1.1.7}{Smashing the stack}{Outline0.1}% 2
+\BOOKMARK [3][]{Outline0.1.2.8}{A brief time line}{Outline0.1}% 3
+\BOOKMARK [3][]{Outline0.1.3.11}{Process Memory}{Outline0.1}% 4
+\BOOKMARK [3][]{Outline0.1.4.14}{Stack Frame}{Outline0.1}% 5
+\BOOKMARK [2][]{Outline0.2}{Buffer Overflows}{}% 6
+\BOOKMARK [3][]{Outline0.2.1.23}{Unsafe functions}{Outline0.2}% 7
+\BOOKMARK [3][]{Outline0.2.2.24}{Basic Overflow}{Outline0.2}% 8
+\BOOKMARK [3][]{Outline0.2.3.26}{Heap-based Overflow}{Outline0.2}% 9
+\BOOKMARK [3][]{Outline0.2.4.27}{Stack-based Overflow}{Outline0.2}% 10
+\BOOKMARK [2][]{Outline0.3}{Security}{}% 11
+\BOOKMARK [3][]{Outline0.3.1.33}{Programming Languages}{Outline0.3}% 12
+\BOOKMARK [3][]{Outline0.3.2.34}{Stack Cookies}{Outline0.3}% 13
+\BOOKMARK [3][]{Outline0.3.3.38}{ASLR}{Outline0.3}% 14
+\BOOKMARK [3][]{Outline0.3.4.40}{DEP}{Outline0.3}% 15
+\BOOKMARK [2][]{Outline0.4}{Mitigations Bypass}{}% 16
+\BOOKMARK [3][]{Outline0.4.1.42}{Multiple Input and Static Areas}{Outline0.4}% 17
+\BOOKMARK [3][]{Outline0.4.2.43}{NOP Sledge}{Outline0.4}% 18
+\BOOKMARK [3][]{Outline0.4.3.45}{JMP2Register}{Outline0.4}% 19
+\BOOKMARK [3][]{Outline0.4.4.48}{Exception Handler}{Outline0.4}% 20
+\BOOKMARK [3][]{Outline0.4.5.50}{Ret2libc}{Outline0.4}% 21
+\BOOKMARK [3][]{Outline0.4.6.53}{ROP}{Outline0.4}% 22
+\BOOKMARK [2][]{Outline0.5}{Shellcoding}{}% 23
+\BOOKMARK [3][]{Outline0.5.1.58}{Syscalls}{Outline0.5}% 24
+\BOOKMARK [3][]{Outline0.5.2.61}{Data reference}{Outline0.5}% 25
+\BOOKMARK [3][]{Outline0.5.3.67}{Zero-bytes problem}{Outline0.5}% 26
+\BOOKMARK [2][]{Outline0.6}{Exercise}{}% 27
+\BOOKMARK [2][]{Outline0.7}{References}{}% 28

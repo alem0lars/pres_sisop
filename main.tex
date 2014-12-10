@@ -1,19 +1,5 @@
 \documentclass{beamer}
-%\usetheme{Madrid}
-%\usetheme{Boadilla}
-%\usetheme{default}
-%\usetheme{Warsaw}
-%\usetheme{Frankfurt}
 \usetheme{Cesena}
-%\usetheme{Bergen}
-%\usetheme{Hannover}
-%\usecolortheme{dolphin}
-%\usetheme{Darmstadt}
-%\setbeamertemplate{footline}[page number]
-%\setbeamercovered{transparent}
-%\setbeamercovered{invisible}
-% To remove the navigation symbols from
-% the bottom of slides
 
 \usepackage{graphicx}
 \usepackage[english]{babel}
@@ -23,12 +9,6 @@
 
 \usepackage{url}
 \usepackage{multicol}
-
-%\usepackage[pdftex,bookmarks,colorlinks,%
-%pdfauthor={Daniele Bellavista},%
-%pdftitle={Shellcoding, and introduction},%
-%pdftex]{hyperref}
-%\usepackage{bm}  % For typesetting bold math (not \mathbold)
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -52,23 +32,11 @@
 
 \institute[CeSeNA]
 {
-\emph{University of Bologna, Scuola di Ingegneria ed Architettura}\\
-\emph{Ingegneria Informatica}
-\emph{Scienze e Tecnologie dell'Informazione}
+\emph{University of Bologna}\\
 \emph{Ingegneria e Scienze Informatiche}
 }
 
 \logo{ \includegraphics[height=1cm]{imgs/CeSeNA.png}}
-
-\AtBeginSection[]{ % Do nothing for \section*
-	\begin{frame}<beamer>
-		\frametitle{Outline}
-		\begin{multicols}{2}
-			\tableofcontents[current]
-		\end{multicols}
-	\end{frame}
-	\addtocounter{framenumber}{-1}
-}
 
 \begin{document}
 
@@ -79,7 +47,6 @@
 	  \titlepage
 	\end{frame}
 }
-
 
 \begin{frame}{Outline}
 	\begin{multicols}{2}
@@ -94,9 +61,9 @@
 % How to protect against bofs?
 \input{security.tex}
 % How to bypass mitigations
-%\input{bypass.tex}
+\input{bypass.tex}
 % How to write a shellcode
-%\input{shellcoding.tex}
+\input{shellcoding.tex}
 % Bof exercise
 \input{exercise.tex}
 
