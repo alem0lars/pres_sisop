@@ -28,20 +28,16 @@
 
 \title[]{Smashing the Stack}
 
-\author[]{Cesena Security Network and Applications}
+\author[]{CeSeNA Security Team}
 
-\institute[CeSeNA]
+\institute[CeSeNA Security and Network and Applications]
 {
 \emph{University of Bologna}\\
 \emph{Ingegneria e Scienze Informatiche}
 }
 
-\logo{ \includegraphics[height=1cm]{imgs/CeSeNA.png}}
-
 \begin{document}
 
-% ackn IRC, github, mail, :
-% 2013 pag 6
 {
   \setbeamertemplate{footline}{}
   \setbeamertemplate{navigation symbols}{}
@@ -50,24 +46,7 @@
   \end{frame}
 }
 
-\begin{frame}{Outline}
-  \begin{multicols}{2}
-    \tableofcontents
-  \end{multicols}
-\end{frame}
-
 % Introduction to registers, stack and function frame
 \input{introduction.tex}
-% What is a buffer overflow and how to
-\input{bufferoverflow.tex}
-% How to protect against bofs?
-\input{security.tex}
-% How to bypass mitigations
-\input{bypass.tex}
-% How to write a shellcode
-\input{shellcoding.tex}
-% Bof exercise
-\input{exercise.tex}
 
-\input{references.tex}
 \end{document}
